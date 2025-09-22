@@ -1,149 +1,218 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Md. Ariful Islam | Portfolio</title>
-    <link rel="stylesheet" href="style.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>MD. Ariful Islam | Electrical & Network Engineer</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+<!-- Link to external CSS -->
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <!-- Header -->
-    <header>
-        <div class="container">
-            <h1>Md. Ariful Islam</h1>
-            <nav>
-                <ul>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#education">Education</a></li>
-                    <li><a href="#projects">Projects</a></li>
-                    <li><a href="#skills">Skills</a></li>
-                    <li><a href="#extracurricular">Activities</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                </ul>
-            </nav>
-        </div>
-    </header>
 
-    <!-- Hero Section -->
-    <section class="hero">
-        <div class="container">
-            <h2>Hi, I'm Md. Ariful Islam</h2>
-            <p>Electrical & Electronics Engineer | System & Network Enthusiast | FPGA Developer</p>
-        </div>
-    </section>
+<!-- Background Circuit Board -->
+<div class="circuit-board"></div>
 
-    <!-- About Section -->
-    <section id="about">
-        <div class="container">
-            <h2>Career Objective</h2>
-            <p>Motivated Electrical and Electronic Engineering graduate from Faridpur Engineering College, University of Dhaka, with strong technical expertise in networking, system administration, and project management. Experienced in leadership roles through IEEE and RIC, with proven problem-solving, teamwork, and communication skills. Seeking an entry-level System/Network Engineer position to leverage my analytical mindset, adaptability, and ability to deliver innovative solutions.</p>
-        </div>
-    </section>
+<!-- Navigation Bar -->
+<nav class="terminal-nav">
+  <div class="terminal-prompt">
+    <span class="prompt-user">visitor@portfolio</span>
+    <span class="prompt-symbol">$</span>
+    <span id="typed-text"></span><span class="cursor"></span>
+  </div>
+  <div class="nav-commands">
+    <a href="#hero" class="nav-command">home</a>
+    <a href="#about" class="nav-command">about</a>
+    <a href="#education" class="nav-command">education</a>
+    <a href="#projects" class="nav-command">projects</a>
+    <a href="#skills" class="nav-command">skills</a>
+    <a href="#contact" class="nav-command">contact</a>
+  </div>
+</nav>
 
-    <!-- Education Section -->
-    <section id="education">
-        <div class="container">
-            <h2>Education</h2>
-            <ul>
-                <li><strong>B.Sc. in EEE</strong>, University of Dhaka (Faridpur Engineering College) – CGPA: 3.09/4.00</li>
-                <li><strong>H.S.C.</strong>, Rajshahi Board – Science – Result: 4.83/5.00</li>
-                <li><strong>S.S.C.</strong>, Rajshahi Board – Science – Result: 4.59/5.00</li>
-            </ul>
-        </div>
-    </section>
+<!-- Hero Section -->
+<section id="hero">
+  <div class="container hero-content">
+    <h1 class="hero-title">MD. Ariful Islam</h1>
+    <h2 class="hero-subtitle">Electrical Engineer & Network Specialist</h2>
+    <p class="hero-description">Bridging hardware fundamentals with networking expertise. From circuits to servers, I build systems that connect the world.</p>
+    <a href="#projects" class="cta-button">View My Projects <i class="fas fa-arrow-right"></i></a>
+  </div>
+</section>
 
-    <!-- Projects & Publications -->
-    <section id="projects">
-        <div class="container">
-            <h2>Projects & Publications</h2>
-            <ul>
-                <li>NDN: A Paradigm Shift for Scalable and Secure Data Delivery – Springer Nature (2025) - ISBN: 978-981-97-8627-5</li>
-                <li>Strategic Network Management for Campuses – Designed a secure and scalable network framework</li>
-                <li>Beyond IPs: Future of Internet with NDN – Simulated NDN protocols using ndnSIM, Python, and Wireshark</li>
-                <li>LoadScope – Real-time Linux load monitor with CLI & Flask dashboard</li>
-                <li>SpeedScope – Terminal-based internet speed test tool using Python</li>
-            </ul>
-        </div>
-    </section>
+<!-- About / Career Objective -->
+<section id="about">
+  <div class="container">
+    <h2 class="section-title">Career Objective</h2>
+    <p>Motivated Electrical & Electronics Engineering graduate from Faridpur Engineering College (Dhaka University) with expertise in networking, system administration, and project management. Experienced in leadership roles through IEEE & RIC. Seeking an entry-level System/Network Engineer role to leverage analytical thinking and deliver innovative solutions.</p>
+  </div>
+</section>
 
-    <!-- Certifications -->
-    <section id="certifications">
-        <div class="container">
-            <h2>Certifications & Training</h2>
-            <ul>
-                <li>CCNA (v7): Enterprise Networking, Security, and Automation – Cisco Networking Academy via NACTAR (ID: 104460296), Score: 96%</li>
-                <li>Cisco Network Security (CNS) – Cisco Networking Academy via NACTAR</li>
-            </ul>
-        </div>
-    </section>
+<!-- Education -->
+<section id="education">
+  <div class="container">
+    <h2 class="section-title">Education</h2>
+    <ul>
+      <li><strong>B.Sc., Electrical & Electronics Engineering</strong> – Faridpur Engineering College, University of Dhaka, CGPA: 3.09/4.00</li>
+      <li><strong>H.S.C., Science</strong> – Rajshahi Board, Result: 4.83/5.00</li>
+      <li><strong>S.S.C., Science</strong> – Rajshahi Board, Result: 4.59/5.00</li>
+    </ul>
+  </div>
+</section>
 
-    <!-- Skills -->
-    <section id="skills">
-        <div class="container">
-            <h2>Technical Skills</h2>
-            <ul>
-                <li><strong>System Administration:</strong> Linux (Rocky/Ubuntu), Bash, systemd, LVM, Docker, virtualization, DNS/DHCP/NFS setup, SELinux, AutoFS, process management.</li>
-                <li><strong>Networking:</strong> IP addressing, routing & switching, VLAN, NAT, ACLs, VPN, firewall rules, Wireshark, tcpdump, nmap.</li>
-                <li><strong>Programming:</strong> Python, JavaScript, C</li>
-                <li><strong>Electrical & Electronics:</strong> Power systems, protection & switchgear, digital logic, circuit simulation, embedded systems, FPGA (Vivado, Verilog HDL), control systems, MATLAB, signal processing</li>
-            </ul>
-        </div>
-    </section>
+<!-- Projects & Publications -->
+<section id="projects">
+  <div class="container">
+    <h2 class="section-title">Projects & Publications</h2>
+    <!-- Filter Buttons -->
+    <div class="project-filters">
+      <button class="filter-btn" data-category="all">All</button>
+      <button class="filter-btn" data-category="ndn">NDN</button>
+      <button class="filter-btn" data-category="network">Networking</button>
+      <button class="filter-btn" data-category="python">Python Tools</button>
+      <button class="filter-btn" data-category="fpga">FPGA & Embedded</button>
+    </div>
 
-    <!-- Extracurricular -->
-    <section id="extracurricular">
-        <div class="container">
-            <h2>Extracurricular Activities</h2>
-            <ul>
-                <li>Active contributor at Google Crowdsource</li>
-                <li>Joint Secretary, IEEE FEC Student Branch (2025)</li>
-                <li>General Secretary, Research & Innovation Centre (RIC) (2024–2025)</li>
-                <li>Science & Technology Affairs Secretary, RIC (2023–2024)</li>
-                <li>Organized and participated in workshops, seminars, and campus tech events</li>
-                <li>Represented institution in cybersecurity exercises by BGD e-GOV CIRT (2021, 2022)</li>
-            </ul>
+    <!-- Project Grid -->
+    <div class="projects-grid">
+      <div class="project-card" data-category="ndn">
+        <div class="project-image"><i class="fas fa-book"></i></div>
+        <div class="project-content">
+          <h3 class="project-title">NDN: A Paradigm Shift – Springer (2025)</h3>
+          <p class="project-description" style="display:none;">Published research on scalable & secure data delivery using Named Data Networking. ISBN: 978-981-97-8627-5.</p>
+          <button class="toggle-btn">Show Details</button>
         </div>
-    </section>
+      </div>
+      <div class="project-card" data-category="network">
+        <div class="project-image"><i class="fas fa-network-wired"></i></div>
+        <div class="project-content">
+          <h3 class="project-title">Strategic Network Management</h3>
+          <p class="project-description" style="display:none;">Designed a secure & scalable campus network management framework with VLANs, firewall rules, and monitoring tools.</p>
+          <button class="toggle-btn">Show Details</button>
+        </div>
+      </div>
+      <div class="project-card" data-category="ndn">
+        <div class="project-image"><i class="fas fa-code"></i></div>
+        <div class="project-content">
+          <h3 class="project-title">Beyond IPs: Future of Internet</h3>
+          <p class="project-description" style="display:none;">Simulated NDN protocols using ndnSIM, Python, and Wireshark to optimize content delivery performance.</p>
+          <button class="toggle-btn">Show Details</button>
+        </div>
+      </div>
+      <div class="project-card" data-category="python">
+        <div class="project-image"><i class="fas fa-terminal"></i></div>
+        <div class="project-content">
+          <h3 class="project-title">LoadScope</h3>
+          <p class="project-description" style="display:none;">Real-time Linux load monitor with CLI and Flask dashboard, showing CPU, memory, and network metrics.</p>
+          <button class="toggle-btn">Show Details</button>
+        </div>
+      </div>
+      <div class="project-card" data-category="python">
+        <div class="project-image"><i class="fas fa-wifi"></i></div>
+        <div class="project-content">
+          <h3 class="project-title">SpeedScope</h3>
+          <p class="project-description" style="display:none;">Terminal-based internet speed test tool using Python for latency, upload, and download analysis.</p>
+          <button class="toggle-btn">Show Details</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
 
-    <!-- Awards -->
-    <section id="awards">
-        <div class="container">
-            <h2>Awards</h2>
-            <ul>
-                <li>1st Place – Poster Presentation at TechnoFest2k24</li>
-                <li>1st Place – Poster Presentation at TechnoVenture3.0</li>
-                <li>Participant – National Cybersecurity Exercises by BGD e-GOV CIRT (2021, 2022)</li>
-            </ul>
-        </div>
-    </section>
+<!-- Skills -->
+<section id="skills">
+  <div class="container">
+    <h2 class="section-title">Technical Skills</h2>
+    <div class="skills-grid">
+      <div class="skill-category">
+        <h3>System Administration</h3>
+        <div class="skill-item"><div class="skill-name">Linux & Bash</div><div class="skill-bar"><div class="skill-progress" data-width="95%"></div></div></div>
+        <div class="skill-item"><div class="skill-name">Docker & Virtualization</div><div class="skill-bar"><div class="skill-progress" data-width="85%"></div></div></div>
+        <div class="skill-item"><div class="skill-name">DNS/DHCP/NFS</div><div class="skill-bar"><div class="skill-progress" data-width="80%"></div></div></div>
+      </div>
+      <div class="skill-category">
+        <h3>Networking</h3>
+        <div class="skill-item"><div class="skill-name">Routing & Switching</div><div class="skill-bar"><div class="skill-progress" data-width="90%"></div></div></div>
+        <div class="skill-item"><div class="skill-name">VPN & Firewall</div><div class="skill-bar"><div class="skill-progress" data-width="85%"></div></div></div>
+      </div>
+      <div class="skill-category">
+        <h3>Programming</h3>
+        <div class="skill-item"><div class="skill-name">Python</div><div class="skill-bar"><div class="skill-progress" data-width="95%"></div></div></div>
+        <div class="skill-item"><div class="skill-name">C & JS</div><div class="skill-bar"><div class="skill-progress" data-width="80%"></div></div></div>
+      </div>
+      <div class="skill-category">
+        <h3>Electronics & Power Systems</h3>
+        <div class="skill-item"><div class="skill-name">FPGA & Embedded Systems</div><div class="skill-bar"><div class="skill-progress" data-width="80%"></div></div></div>
+        <div class="skill-item"><div class="skill-name">Circuit Design & MATLAB</div><div class="skill-bar"><div class="skill-progress" data-width="85%"></div></div></div>
+      </div>
+    </div>
+  </div>
+</section>
 
-    <!-- Languages -->
-    <section id="languages">
-        <div class="container">
-            <h2>Languages</h2>
-            <ul>
-                <li>Bengali – Native proficiency</li>
-                <li>English – Professional proficiency</li>
-            </ul>
-        </div>
-    </section>
+<!-- Certifications -->
+<section id="certifications">
+  <div class="container">
+    <h2 class="section-title">Certifications & Training</h2>
+    <ul>
+      <li>CCNA v7: Enterprise Networking, Security, & Automation – Cisco (Score: 96%)</li>
+      <li>Cisco Network Security (CNS) – Cisco Networking Academy</li>
+    </ul>
+  </div>
+</section>
 
-    <!-- Contact Section -->
-    <section id="contact">
-        <div class="container">
-            <h2>Contact</h2>
-            <p>Email: arifular85@gmail.com</p>
-            <p>Phone: +8801792663321</p>
-            <p>Location: Rajshahi, Bangladesh</p>
-            <p>LinkedIn/GitHub: ariful420</p>
-        </div>
-    </section>
+<!-- Extracurricular & Awards -->
+<section id="extracurricular">
+  <div class="container">
+    <h2 class="section-title">Extracurricular Activities & Awards</h2>
+    <ul>
+      <li>Active Contributor – Google Crowdsource AI projects</li>
+      <li>General Secretary – RIC, Faridpur Engineering College (2024–2025)</li>
+      <li>Joint Secretary – IEEE, FEC Student Branch (2025)</li>
+      <li>1st Place – Poster Presentation at TechnoFest2k24 & TechnoVenture3.0</li>
+      <li>Represented institution – National Cybersecurity Exercises (BGD e-GOV CIRT)</li>
+    </ul>
+  </div>
+</section>
 
-    <!-- Footer -->
-    <footer>
-        <div class="container">
-            <p>&copy; 2025 Md. Ariful Islam. All rights reserved.</p>
-        </div>
-    </footer>
+<!-- Languages -->
+<section id="languages">
+  <div class="container">
+    <h2 class="section-title">Languages</h2>
+    <ul>
+      <li>Bengali – Native proficiency</li>
+      <li>English – Professional proficiency</li>
+    </ul>
+  </div>
+</section>
+
+<!-- Declaration -->
+<section id="declaration">
+  <div class="container">
+    <h2 class="section-title">Declaration</h2>
+    <p>I hereby declare that all the information in this resume is accurate to my knowledge. I take full responsibility for its correctness.</p>
+    <p>Sincerely, <strong>Md. Ariful Islam</strong></p>
+  </div>
+</section>
+
+<!-- Contact -->
+<section id="contact">
+  <div class="container">
+    <h2 class="section-title">Contact Me</h2>
+    <div class="contact-links">
+      <a href="mailto:arifular85@gmail.com" class="contact-link"><i class="fas fa-envelope"></i> arifular85@gmail.com</a>
+      <a href="tel:+8801792663321" class="contact-link"><i class="fas fa-phone"></i> +8801792663321</a>
+      <a href="https://github.com/ariful420" class="contact-link"><i class="fab fa-github"></i> ariful420</a>
+      <a href="https://www.linkedin.com/in/ariful420" class="contact-link"><i class="fab fa-linkedin"></i> ariful420</a>
+    </div>
+  </div>
+</section>
+
+<footer>
+  &copy; 2025 Md. Ariful Islam. All rights reserved.
+</footer>
+
+<!-- JavaScript -->
+<script src="script.js"></script>
+
 </body>
 </html>
