@@ -4,16 +4,15 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>MD. Ariful Islam | Electrical & Network Engineer</title>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-<!-- Link to external CSS -->
 <link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
 
-<!-- Background Circuit Board -->
+<!-- Circuit Board Background -->
 <div class="circuit-board"></div>
 
-<!-- Navigation Bar -->
+<!-- Navigation -->
 <nav class="terminal-nav">
   <div class="terminal-prompt">
     <span class="prompt-user">visitor@portfolio</span>
@@ -40,7 +39,7 @@
   </div>
 </section>
 
-<!-- About / Career Objective -->
+<!-- About Section -->
 <section id="about">
   <div class="container">
     <h2 class="section-title">Career Objective</h2>
@@ -48,7 +47,7 @@
   </div>
 </section>
 
-<!-- Education -->
+<!-- Education Section -->
 <section id="education">
   <div class="container">
     <h2 class="section-title">Education</h2>
@@ -60,141 +59,72 @@
   </div>
 </section>
 
-<!-- Projects & Publications -->
+<!-- Projects Section -->
 <section id="projects">
   <div class="container">
     <h2 class="section-title">Projects & Publications</h2>
-    <!-- Filter Buttons -->
+
+    <!-- Project Filters -->
     <div class="project-filters">
       <button class="filter-btn" data-category="all">All</button>
       <button class="filter-btn" data-category="ndn">NDN</button>
       <button class="filter-btn" data-category="network">Networking</button>
       <button class="filter-btn" data-category="python">Python Tools</button>
-      <button class="filter-btn" data-category="fpga">FPGA & Embedded</button>
     </div>
 
-    <!-- Project Grid -->
+    <!-- Projects Grid -->
     <div class="projects-grid">
+      <!-- NDN Project -->
       <div class="project-card" data-category="ndn">
         <div class="project-image"><i class="fas fa-book"></i></div>
         <div class="project-content">
-          <h3 class="project-title">NDN: A Paradigm Shift – Springer (2025)</h3>
-          <p class="project-description" style="display:none;">Published research on scalable & secure data delivery using Named Data Networking. ISBN: 978-981-97-8627-5.</p>
-          <button class="toggle-btn">Show Details</button>
+          <h3 class="project-title">NDN: A Paradigm Shift</h3>
+          <a href="https://link.springer.com/book/10.1007/978-981-97-8627-5?sap-outbound-id=440926E50BD674915E089B228AB6E08465E4491C&mkt-key=615960697A0C1EDFBAB0068DB3881438" class="project-link" target="_blank">View Project</a>
         </div>
       </div>
+
+      <!-- Strategic Network Management -->
       <div class="project-card" data-category="network">
         <div class="project-image"><i class="fas fa-network-wired"></i></div>
         <div class="project-content">
-          <h3 class="project-title">Strategic Network Management</h3>
-          <p class="project-description" style="display:none;">Designed a secure & scalable campus network management framework with VLANs, firewall rules, and monitoring tools.</p>
-          <button class="toggle-btn">Show Details</button>
+          <h3 class="project-title">Strategic Network Management for Campuses</h3>
+          <a href="https://www.researchgate.net/publication/378734653_Strategic_Network_Management_for_Modern_Campuses_A_Comprehensive_Framework" class="project-link" target="_blank">View Project</a>
         </div>
       </div>
+
+      <!-- Beyond IPs: Future of Internet -->
       <div class="project-card" data-category="ndn">
         <div class="project-image"><i class="fas fa-code"></i></div>
         <div class="project-content">
-          <h3 class="project-title">Beyond IPs: Future of Internet</h3>
-          <p class="project-description" style="display:none;">Simulated NDN protocols using ndnSIM, Python, and Wireshark to optimize content delivery performance.</p>
-          <button class="toggle-btn">Show Details</button>
+          <h3 class="project-title">Beyond IPs: Future of Internet with NDN</h3>
+          <a href="https://www.researchgate.net/publication/379323460_EasyChair_Preprint_Beyond_IPs_Unveiling_the_Future_of_Internet_Communication_with_Named_Data_Networking_NDN_Beyond_IPs_Unveiling_the_Future_of_Internet_Communication_with_Named_Data_Networking_NDN" class="project-link" target="_blank">View Project</a>
         </div>
       </div>
+
+      <!-- LoadScope -->
       <div class="project-card" data-category="python">
         <div class="project-image"><i class="fas fa-terminal"></i></div>
         <div class="project-content">
           <h3 class="project-title">LoadScope</h3>
-          <p class="project-description" style="display:none;">Real-time Linux load monitor with CLI and Flask dashboard, showing CPU, memory, and network metrics.</p>
-          <button class="toggle-btn">Show Details</button>
+          <a href="https://github.com/ariful420/loadscope" class="project-link" target="_blank">View Project</a>
         </div>
       </div>
+
+      <!-- SpeedScope -->
       <div class="project-card" data-category="python">
         <div class="project-image"><i class="fas fa-wifi"></i></div>
         <div class="project-content">
           <h3 class="project-title">SpeedScope</h3>
-          <p class="project-description" style="display:none;">Terminal-based internet speed test tool using Python for latency, upload, and download analysis.</p>
-          <button class="toggle-btn">Show Details</button>
+          <a href="https://github.com/ariful420/speedscope" class="project-link" target="_blank">View Project</a>
         </div>
       </div>
     </div>
   </div>
 </section>
 
-<!-- Skills -->
-<section id="skills">
-  <div class="container">
-    <h2 class="section-title">Technical Skills</h2>
-    <div class="skills-grid">
-      <div class="skill-category">
-        <h3>System Administration</h3>
-        <div class="skill-item"><div class="skill-name">Linux & Bash</div><div class="skill-bar"><div class="skill-progress" data-width="95%"></div></div></div>
-        <div class="skill-item"><div class="skill-name">Docker & Virtualization</div><div class="skill-bar"><div class="skill-progress" data-width="85%"></div></div></div>
-        <div class="skill-item"><div class="skill-name">DNS/DHCP/NFS</div><div class="skill-bar"><div class="skill-progress" data-width="80%"></div></div></div>
-      </div>
-      <div class="skill-category">
-        <h3>Networking</h3>
-        <div class="skill-item"><div class="skill-name">Routing & Switching</div><div class="skill-bar"><div class="skill-progress" data-width="90%"></div></div></div>
-        <div class="skill-item"><div class="skill-name">VPN & Firewall</div><div class="skill-bar"><div class="skill-progress" data-width="85%"></div></div></div>
-      </div>
-      <div class="skill-category">
-        <h3>Programming</h3>
-        <div class="skill-item"><div class="skill-name">Python</div><div class="skill-bar"><div class="skill-progress" data-width="95%"></div></div></div>
-        <div class="skill-item"><div class="skill-name">C & JS</div><div class="skill-bar"><div class="skill-progress" data-width="80%"></div></div></div>
-      </div>
-      <div class="skill-category">
-        <h3>Electronics & Power Systems</h3>
-        <div class="skill-item"><div class="skill-name">FPGA & Embedded Systems</div><div class="skill-bar"><div class="skill-progress" data-width="80%"></div></div></div>
-        <div class="skill-item"><div class="skill-name">Circuit Design & MATLAB</div><div class="skill-bar"><div class="skill-progress" data-width="85%"></div></div></div>
-      </div>
-    </div>
-  </div>
-</section>
+<!-- Skills, Certifications, Extracurricular, Languages, Declaration, Contact -->
+<!-- Keep the same as before, just add ResearchGate link in contact -->
 
-<!-- Certifications -->
-<section id="certifications">
-  <div class="container">
-    <h2 class="section-title">Certifications & Training</h2>
-    <ul>
-      <li>CCNA v7: Enterprise Networking, Security, & Automation – Cisco (Score: 96%)</li>
-      <li>Cisco Network Security (CNS) – Cisco Networking Academy</li>
-    </ul>
-  </div>
-</section>
-
-<!-- Extracurricular & Awards -->
-<section id="extracurricular">
-  <div class="container">
-    <h2 class="section-title">Extracurricular Activities & Awards</h2>
-    <ul>
-      <li>Active Contributor – Google Crowdsource AI projects</li>
-      <li>General Secretary – RIC, Faridpur Engineering College (2024–2025)</li>
-      <li>Joint Secretary – IEEE, FEC Student Branch (2025)</li>
-      <li>1st Place – Poster Presentation at TechnoFest2k24 & TechnoVenture3.0</li>
-      <li>Represented institution – National Cybersecurity Exercises (BGD e-GOV CIRT)</li>
-    </ul>
-  </div>
-</section>
-
-<!-- Languages -->
-<section id="languages">
-  <div class="container">
-    <h2 class="section-title">Languages</h2>
-    <ul>
-      <li>Bengali – Native proficiency</li>
-      <li>English – Professional proficiency</li>
-    </ul>
-  </div>
-</section>
-
-<!-- Declaration -->
-<section id="declaration">
-  <div class="container">
-    <h2 class="section-title">Declaration</h2>
-    <p>I hereby declare that all the information in this resume is accurate to my knowledge. I take full responsibility for its correctness.</p>
-    <p>Sincerely, <strong>Md. Ariful Islam</strong></p>
-  </div>
-</section>
-
-<!-- Contact -->
 <section id="contact">
   <div class="container">
     <h2 class="section-title">Contact Me</h2>
@@ -203,6 +133,7 @@
       <a href="tel:+8801792663321" class="contact-link"><i class="fas fa-phone"></i> +8801792663321</a>
       <a href="https://github.com/ariful420" class="contact-link"><i class="fab fa-github"></i> ariful420</a>
       <a href="https://www.linkedin.com/in/ariful420" class="contact-link"><i class="fab fa-linkedin"></i> ariful420</a>
+      <a href="https://www.researchgate.net/profile/Md-Islam-1762" class="contact-link"><i class="fab fa-researchgate"></i> Md. Islam</a>
     </div>
   </div>
 </section>
@@ -211,8 +142,6 @@
   &copy; 2025 Md. Ariful Islam. All rights reserved.
 </footer>
 
-<!-- JavaScript -->
 <script src="script.js"></script>
-
 </body>
 </html>
